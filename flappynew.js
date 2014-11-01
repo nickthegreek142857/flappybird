@@ -37,6 +37,7 @@ function create() {
     // set the background colour of the scene
     game.stage.setBackgroundColor('#3399FF');
     game.add.text(300, 10, "Welcome to my game!",{font: "20px Arial",fill: "#F3D3A3" });
+
     game.add.sprite(10,340, "playerImg2");
     game.add.sprite(730,10,"playerImg2");
     game.add.sprite(10,10, "playerImg2");
